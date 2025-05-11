@@ -31,7 +31,6 @@ go build -o quiz
 
 | Flag | Description | Default |
 |------|-------------|---------|
-| `-csv` | Path to the CSV file containing questions | `problems.csv` |
 | `-limit` | Time limit for the quiz in seconds | `30` |
 | `-shuffle` | Whether to randomize question order | `false` |
 
@@ -58,7 +57,7 @@ capital of france,paris
 ./quiz
 
 # Run with custom settings
-./quiz -csv=math_problems.csv -limit=60 -shuffle=true
+./quiz -limit=60 -shuffle=true
 ```
 
 ## Development
